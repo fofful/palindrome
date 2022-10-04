@@ -4,7 +4,7 @@ use std::char;
 fn main(){
     let args: Vec<String> = env::args().collect();
     let input_string: String;
-    if args.len() > 1{
+    if args.len() == 2{
         input_string = args[1].parse::<String>().unwrap();       
     }
     else{
