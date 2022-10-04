@@ -1,2 +1,2 @@
 # palindrome
-checks if the commandline argument is a palindrome.
+checks if a commandline argument is a palindrome.
